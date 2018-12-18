@@ -1,0 +1,8 @@
+ CREATE TABLE Product_details(
+    product_id VARCHAR(20),
+    product_name VARCHAR(20),
+    product_price number,
+    discount number);
+    
+
+Create Sequence Product_Id start with 1000;

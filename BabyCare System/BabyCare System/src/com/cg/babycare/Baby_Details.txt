@@ -1,0 +1,11 @@
+ CREATE TABLE Baby_details(
+    baby_id VARCHAR(20),
+    baby_name VARCHAR(20),
+    baby_age number,
+    baby_gender VARCHAR(20),
+    father_name VARCHAR(20),
+    mother_name VARCHAR(20),
+    address VARCHAR(20),
+    contact number);
+
+Create Sequence Baby_Id start with 100;
